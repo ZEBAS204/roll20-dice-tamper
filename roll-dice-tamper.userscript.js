@@ -59,8 +59,8 @@
 					arguments
 				)
 
-				content.rolls[0].results[0].v = 10 // Resultado del dato
-				content.total = 10 // Resultado total de la suma de datos (rolls[x].result[x].v)
+				content.rolls[0].results[0].v = 10 // Roll result
+				content.total = 10 // Summation result of all dice
 				data.d.b.d.content = JSON.stringify(content)
 				// data.d.b.d.signature = "5bf76585b54a94247256692144cadf5dc64a23613167ad0f119e8e12c123d7865a167a57a24214a8dc8eaf0c4eb633e5f2399a40850b0d78dd65d0386ddc5b72";
 				// data.d.b.d.tdseed = 1719927481513178400;
